@@ -1,0 +1,12 @@
+FROM postgres 
+COPY 01-init.sql /docker-entrypoint-initdb.d/
+COPY 02-beerlover.sql /docker-entrypoint-initdb.d/
+COPY 03-brewery.sql /docker-entrypoint-initdb.d/
+COPY 04-beer.sql /docker-entrypoint-initdb.d/
+COPY 05-review.sql /docker-entrypoint-initdb.d/
+COPY 06-photo.sql /docker-entrypoint-initdb.d/
+COPY 07-ingredient.sql /docker-entrypoint-initdb.d/
+COPY 08-favorite.sql /docker-entrypoint-initdb.d/
+COPY 09-category.sql /docker-entrypoint-initdb.d/
+COPY 10-category_beer.sql /docker-entrypoint-initdb.d/
+COPY 11-beer_ingredient.sql /docker-entrypoint-initdb.d/

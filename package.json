@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "docker-start": "clear && docker-compose up -d --build && docker logs --tail 1000 --follow ZythologueAME-app --details",
+        "docker-stop": "clear && docker-compose down -v",
+        "app-scripts": "clear && docker exec -it ZythologueAME-app bash",
+        "run-watch": "clear && docker exec -it ZythologueAME-app sh -c ./runwatch.sh",
+        "check-secu": "clear && docker exec -it ZythologueAME-app sh -c \"symfony check:security\"",
+        "check-code": "clear && docker exec -it ZythologueAME-app bash -c \"./vendor/bin/phpcs -v --standard=PSR12 --ignore=./src/Kernel.php ./src\""
+    }
+}

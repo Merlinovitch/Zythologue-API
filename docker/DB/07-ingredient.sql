@@ -1,0 +1,14 @@
+insert into ingredient (ingredient_name) values ('malted barley');
+insert into ingredient (ingredient_name) values ('hops');
+insert into ingredient (ingredient_name) values ('yeast');
+insert into ingredient (ingredient_name) values ('water');
+insert into ingredient (ingredient_name) values ('oats');
+insert into ingredient (ingredient_name) values ('cinnamon');
+insert into ingredient (ingredient_name) values ('basil');
+insert into ingredient (ingredient_name) values ('coriander');
+insert into ingredient (ingredient_name) values ('orange peel');
+insert into ingredient (ingredient_name) values ('vanilla');
+insert into ingredient (ingredient_name) values ('cacao nibs');
+insert into ingredient (ingredient_name) values ('lemon');
+insert into ingredient (ingredient_name) values ('butter');
+insert into ingredient (ingredient_name) values ('pepper');
