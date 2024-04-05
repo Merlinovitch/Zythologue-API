@@ -27,4 +27,4 @@ COPY ./config/php-config.ini /usr/local/etc/php/conf.d/php-config-overrides.ini
 
 WORKDIR /var/www/
 
-# ENTRYPOINT ["bash", "./scripts.sh"]
+ENTRYPOINT ["bash", "./zythologue-api/scripts.sh"]
